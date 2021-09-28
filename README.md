@@ -3,7 +3,7 @@ The fully simulated platform of ScampSim and Coppelia. Including three parts of 
 
 1. The related Scamp5d system documents, guidances and downloads files could be found via https://scamp.gitlab.io/scamp5d_doc/. Before the next operation, the ScampSim Server and Scamp Host should be installed on your equipment. Also, the CoppeliaSim simulator could be found here https://www.coppeliarobotics.com/, whose latest released version is 4.2.0.
 
-2. In the 'ScampSim code' folder, the C file '~\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\sim_example\sim_example.sln' contains the Flood image processing algorithm which could be run in the ScampSim Server. Configuration settings are included in '~\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\bin\sim_config.json' file, for example, the type of image source.
+2. In the 'ScampSim code' folder, the C file '\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\sim_example\sim_example.sln' contains the Flood image processing algorithm which could be run in the ScampSim Server. Configuration settings are included in '\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\bin\sim_config.json' file, for example, the type of image source.
 
 3. In the 'Interface API code' folder, the Python file 'main.py' contains the interface module and remote API module to comunicate the ScampSim and CoppeliaSim. 
 
