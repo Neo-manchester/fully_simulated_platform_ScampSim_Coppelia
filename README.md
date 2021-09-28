@@ -5,8 +5,8 @@ The monocular vision-based robot navigation in a fully simulated platform of Sca
 
 2. In the 'ScampSim code' folder, the C file '\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\sim_example\sim_example.sln' contains the Flood image processing algorithm which could be run in the ScampSim Server. Configuration settings are included in '\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\bin\sim_config.json' file, for example, the type of image source.
 
-3. In the 'Interface API code' folder, the Python file 'main.py' contains the interface module and remote API module to comunicate the ScampSim and CoppeliaSim. 
+3. In the 'Interface API code' folder, the Python file '\Interface API code\scamp_python_module\main.py' contains the interface module and remote API module to comunicate the ScampSim and CoppeliaSim. 
 
-4. In the 'CoppeliaSim code' folder, three CoppeliaSim files '~.tt' provide different simulation environments for corresponding tasks and configured Manta robot inside.
+4. In the 'CoppeliaSim code' folder, three CoppeliaSim files '~.ttt' provide different simulation environments for corresponding tasks and configured Manta robot inside.
 
 5. Noticed that, at least two screens are needed. The runing order is (1) Server (always be sure of B0resover running); (2) Interface & API ;(3) CoppeliaSim (automaticaly launched by API)
