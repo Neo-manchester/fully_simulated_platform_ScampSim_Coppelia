@@ -1,0 +1,14 @@
+{
+  "server_ip": "127.0.0.1",
+  "port_client": "27715",
+  "port_app": "27725",
+  "source_type": "screen",
+  "source_path": "1050,150,406,1306",
+  "hide_console": true,
+  "idle_mode": 0,
+  "palette": [
+    "../resources/sim_areg_default.BMP",
+    "../resources/sim_areg_saturation.BMP"
+  ],
+  "_note": "See the online documentation for explanation of these parameters."
+}
