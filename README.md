@@ -1,5 +1,5 @@
 # Fully_simulated_platform_ScampSim_Coppelia
-The fully simulated platform of ScampSim and Coppelia. Including three parts of codes, ScampSim server(c++); Interface &amp; API (Python); CoppeliaSim scene (Lua).
+The monocular vision-based robot navigation in a fully simulated platform of ScampSim and Coppelia. Including three parts of codes, ScampSim server(c++); Interface &amp; API (Python); CoppeliaSim scene (Lua).
 
 1. The related Scamp5d system documents, guidances and downloads files could be found via https://scamp.gitlab.io/scamp5d_doc/. Before the next operation, the ScampSim Server and Scamp Host should be installed on your equipment. Also, the CoppeliaSim simulator could be found here https://www.coppeliarobotics.com/, whose latest released version is 4.2.0.
 
