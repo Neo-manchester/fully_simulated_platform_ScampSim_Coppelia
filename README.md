@@ -5,7 +5,7 @@ The monocular vision-based robot navigation in a fully simulated platform of Sca
 
 2. In the 'ScampSim code' folder, the C file '\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\sim_example\sim_example.sln' contains the Flood image processing algorithm which could be run in the ScampSim Server. Configuration settings are included in '\ScampSim code\scamp5d_sim_1_0_0\scamp5d_sim\bin\sim_config.json' file, for example, the type of image source.
 
-3. In the 'Interface API code' folder, the Python file '\Interface API code\scamp_python_module\main.py' contains the interface module and remote API module to comunicate the ScampSim and CoppeliaSim. 
+3. In the 'Interface API code' folder, the Python file '\Interface API code\scamp_python_module\main.py' contains the interface and remote API module to comunicate the ScampSim and CoppeliaSim. Also, the navigation algorithm part is included inside. For your customised design, this module could be improved because it is originaly rewrited from the interface library template. You can delete some needless codes such as TK inter as your special requirement and design the new cycle, or place the navigation part into the CoppeliaSim.
 
 4. In the 'CoppeliaSim code' folder, three CoppeliaSim files '~.ttt' provide different simulation environments for corresponding tasks and configured Manta robot inside.
 
